@@ -24,20 +24,21 @@
 <body>
     <div class="container-md">
         <div>
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <textarea class="form-control m-1" placeholder="Enter hex code here" id="floatingTextarea"
+                rows="4"></textarea>
         </div>
-        <div class="d-flex justify-content-center mt-5">
+        <div class="text-center mt-5">
             <button type="button" class="btn btn-primary" onclick="decode()">DECODE</button>
         </div>
-        <div class="d-flex justify-content-center mt-5">
-            <a id="link" href=""></a>
+        <div class="text-center mt-5">
+            <a class="m-1" id="link" href=""></a>
         </div>
     </div>
 
     <div class="container-md text-center">
         <h1>Todo</h1>
 
-        <form class="todo-form d-flex justify-content-center">
+        <form class="todo-form text-center">
             <input type="text" class="todo-input form-control m-1" placeholder="Add a Todo...">
             <button type="submit" class="add-button btn btn-primary m-1">Add</button>
         </form>
