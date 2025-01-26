@@ -16,6 +16,9 @@ window.onload = () => {
 
   const props = {
     debug: false, // So we can see pointer angle.
+    isInteractive: false,
+    itemLabelRotation: 90,
+    itemLabelAlign: 'center',
     items: [
       {
         label: '20k',
@@ -46,7 +49,7 @@ window.onload = () => {
         backgroundColor: 'red',
       },
     ],
-    itemLabelRadiusMax: 0.5,
+    itemLabelRadiusMax: 0.7,
   };
 
   let sum_of_weight = 0;
