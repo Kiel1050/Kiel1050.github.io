@@ -23,14 +23,14 @@ window.onload = () => {
       {
         label: '20k',
         weight: 1,
-        trueWeight: 20,
+        trueWeight: 30,
         price: 20,
         backgroundColor: '#0070dd',
       },
       {
         label: '50k',
         weight: 1,
-        trueWeight: 4,
+        trueWeight: 20,
         price: 50,
         backgroundColor: '#a335ee',
       },
